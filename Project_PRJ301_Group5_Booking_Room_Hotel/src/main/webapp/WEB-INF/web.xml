@@ -36,6 +36,10 @@
         <servlet-name>FindRoomFilterServlet</servlet-name>
         <servlet-class>Filters.FindRoomFilterServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddRoomServlet</servlet-name>
+        <servlet-class>Controllers.Room.AddRoomServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AdminServlet</servlet-name>
         <url-pattern>/adminServlet</url-pattern>
@@ -71,6 +75,10 @@
     <servlet-mapping>
         <servlet-name>FindRoomFilterServlet</servlet-name>
         <url-pattern>/findRoomFilterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddRoomServlet</servlet-name>
+        <url-pattern>/addRoomServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
