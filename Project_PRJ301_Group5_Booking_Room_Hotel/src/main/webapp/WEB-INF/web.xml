@@ -16,6 +16,26 @@
         <servlet-name>BookingRoomServlet</servlet-name>
         <servlet-class>Controllers.Room.BookingRoomServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>HistoryServlet</servlet-name>
+        <servlet-class>Controllers.Room.HistoryServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListRoomServlet</servlet-name>
+        <servlet-class>Controllers.Room.ListRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateRoomServlet</servlet-name>
+        <servlet-class>Controllers.Room.UpdateRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteRoomServlet</servlet-name>
+        <servlet-class>Controllers.Room.DeleteRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FindRoomFilterServlet</servlet-name>
+        <servlet-class>Filters.FindRoomFilterServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AdminServlet</servlet-name>
         <url-pattern>/adminServlet</url-pattern>
@@ -31,6 +51,26 @@
     <servlet-mapping>
         <servlet-name>BookingRoomServlet</servlet-name>
         <url-pattern>/bookingRoomServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HistoryServlet</servlet-name>
+        <url-pattern>/historyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListRoomServlet</servlet-name>
+        <url-pattern>/listRoomServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateRoomServlet</servlet-name>
+        <url-pattern>/updateRoomServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteRoomServlet</servlet-name>
+        <url-pattern>/deleteRoomServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FindRoomFilterServlet</servlet-name>
+        <url-pattern>/findRoomFilterServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
